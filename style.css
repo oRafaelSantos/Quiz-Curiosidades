@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+*{
+    font-family: 'Arvo', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #cbd0fe;
+}
+
+header h1{
+    text-align: center;
+}
+
+.titulo-principal{
+    border: 1px solid #181f20;
+    background-color: #181f20;
+    padding: 20px;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.questao{
+    border: 1px solid #181f20;
+    background-color: #181f20;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.questao input{
+    margin: 10px;
+}
+
+.btn-submit-respostas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    width: 20%;
+    border: 1px solid #181f20;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    width: 25%;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px){
+    button{
+        width: 40%;
+    }
+
+    button:hover{
+        width: 45%;
+    }
+}
