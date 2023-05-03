@@ -29,8 +29,13 @@ form.addEventListener('submit', (event) => {
             score++;
         }
 
-        alert('Você acertou ' + score + ' de 5')
+        if(score == 5){
+            alert('Parabéns, você acertou ' + score + ' de 5')
+        }else{
+            alert('Você acertou ' + score + ' de 5')
+        }
+
     }else{
-        alert('Responda todas questões!')
+        alert('Você precisa responder todas as questões!')
     }
 })
